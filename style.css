@@ -81,6 +81,11 @@ li a:hover::after {
   gap: 10px;
   margin-top: 3%;
 }
+.buttn, .buttn1{
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
 .fa-less-than {
   color: cadetblue;
   font-size: 50px;
@@ -88,6 +93,10 @@ li a:hover::after {
 .fa-greater-than {
   color: cadetblue;
   font-size: 50px;
+}
+.fa-greater-than,
+.fa-less-than {
+  cursor: pointer;
 }
 .img-container {
   display: flex;
