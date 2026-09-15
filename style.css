@@ -65,6 +65,7 @@ li a:hover::after {
 }
 .title p span {
   color: rgb(166, 215, 234);
+  font-weight: 600;
 }
 .con {
   display: flex;
@@ -107,7 +108,7 @@ li a:hover::after {
   position: relative;
   transform-style: preserve-3d;
   transform: perspective(1000px);
-  animation: gallery 20s linear infinite;
+  animation: gallery 30s linear infinite;
   transition: transform 0.5s;
 }
 .img-container span {
